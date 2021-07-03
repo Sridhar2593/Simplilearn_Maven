@@ -1,7 +1,6 @@
 package test;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
@@ -11,7 +10,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
-import org.testng.asserts.SoftAssert;
+
 
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
@@ -24,7 +23,7 @@ public class BaseClass {
 	
 	XSSFWorkbook wbook;
 	XSSFSheet sheet;
-	SoftAssert soft = new SoftAssert();
+	//SoftAssert soft = new SoftAssert();
 	
 	@BeforeMethod
 	public void setup() throws IOException {

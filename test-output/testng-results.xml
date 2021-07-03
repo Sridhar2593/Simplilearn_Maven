@@ -2,24 +2,24 @@
 <testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-07-03T09:09:52 IST" name="Suite" finished-at="2021-07-03T09:10:03 IST" duration-ms="10580">
+  <suite started-at="2021-07-03T11:16:37 IST" name="Default suite" finished-at="2021-07-03T11:16:53 IST" duration-ms="16268">
     <groups>
     </groups>
-    <test started-at="2021-07-03T09:09:52 IST" name="Test" finished-at="2021-07-03T09:10:03 IST" duration-ms="10580">
+    <test started-at="2021-07-03T11:16:37 IST" name="Default test" finished-at="2021-07-03T11:16:53 IST" duration-ms="16268">
       <class name="test.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.LoginTest@21de60b4]" started-at="2021-07-03T09:09:52 IST" name="setup" finished-at="2021-07-03T09:09:55 IST" duration-ms="3172" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.LoginTest@1ffe63b9]" started-at="2021-07-03T11:16:37 IST" name="setup" finished-at="2021-07-03T11:16:42 IST" duration-ms="5158" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="LoginTest2()[pri:0, instance:test.LoginTest@21de60b4]" started-at="2021-07-03T09:09:55 IST" name="LoginTest2" finished-at="2021-07-03T09:10:02 IST" duration-ms="6520" status="PASS">
+        <test-method signature="LoginTest2()[pri:0, instance:test.LoginTest@1ffe63b9]" started-at="2021-07-03T11:16:42 IST" name="LoginTest2" finished-at="2021-07-03T11:16:51 IST" duration-ms="9467" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTest2 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:test.LoginTest@21de60b4]" started-at="2021-07-03T09:10:02 IST" name="teardown" finished-at="2021-07-03T09:10:03 IST" duration-ms="857" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:test.LoginTest@1ffe63b9]" started-at="2021-07-03T11:16:51 IST" name="teardown" finished-at="2021-07-03T11:16:53 IST" duration-ms="1576" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- test.LoginTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
