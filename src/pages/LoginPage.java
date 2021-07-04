@@ -82,7 +82,7 @@ public class LoginPage {
 		
 		String ActError = Error.getText();
 		
-		String ExpectedError = "The email or password you have entered is invali";
+		String ExpectedError = "The email or password you have entered is invalid.";
 		
 		//Assert.assertTrue(Error.isDisplayed());
 		Assert.assertEquals(ActError, ExpectedError);

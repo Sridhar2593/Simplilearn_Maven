@@ -13,7 +13,7 @@ import org.testng.ITestResult;
 
 public class TestNgListnerEx implements ITestListener {
 	
-	WebDriver driver = BaseClass.driver;
+	
 	
 	@Override
 	public void onTestStart(ITestResult result) {
@@ -29,9 +29,9 @@ public class TestNgListnerEx implements ITestListener {
 	}
 
 	@Override
-	public void onTestFailure(ITestResult result) {
+	public void onTestFailure(ITestResult result) throws NullPointerException {
 		// TODO Auto-generated method stub
-		
+		WebDriver driver = BaseClass.driver;
 		TakesScreenshot tsObj = (TakesScreenshot)driver;
 		
 		File myFile = tsObj.getScreenshotAs(OutputType.FILE);
